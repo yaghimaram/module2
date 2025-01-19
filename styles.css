@@ -1,1 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: rgb(68, 138, 243);
+    margin: 0;
+ }
 
+#header-nav{
+    background-color:rgb(255, 246, 230);
+    max-height: 100px;
+ }
+.container{
+margin-left: 0px;
+}
+
+div{
+    display: block;
+}
+div .navbar-header{
+    max-height: 30px;
+}
+
+.vanbar-brand{
+    margin-bottom: -30px;
+    width: 150px;
+}
+.vanbar-brand h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: rgb(33, 8, 124);
+}
+
+.vanbar-brand a, .vanbar-brand a:visited, .vanbar-brand a:hover {
+    text-decoration: none;
+}
+.vanbar-brand {
+    vertical-align: middle;
+}
+.row a, .row a:visited, .row a:hover{
+    text-decoration: none;
+}
+#home-tiles P {
+    padding: 10px;
+    text-align: justify;
+}
+div .row{
+    text-align: center;
+    color: rgb(33, 8, 124);
+}
+#nav-list{
+    margin-bottom: 10px;
+}
+#nav-list a{
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(33, 8, 124);
+    background-color: rgb(255, 246, 230);
+}
+#nav-list a:hover{
+    background-color: antiquewhite;
+}
+.navbar {
+    margin-bottom:0px;
+}
+.navbar-default .navbar-toggle  {
+    border-color:  rgb(33, 8, 124);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:  blue;
+}
+
+@media(min-width: 1200px){
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media(min-width: 768px){
+    .navbar-toggle{
+        display: none;
+    }
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+
+}
+
+.collapse.in {
+    display: block;
+}
+.navbar-collapse .nav>li>a {
+    color:rgb(33, 8, 124);
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: rgb(68, 138, 243);
+}
+
+
+.panel-footer{
+    margin-top: 50px;
+    padding: auto;
+    background-color: antiquewhite;
+}
+
+/*home*/
+#home-tiles{
+    margin-top: 20px;
+}
+h1{
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    color: antiquewhite;
+}
+#Chicken-tile, #beef-tile, #suchi-tile{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    border: 2px solid rgb(33, 8, 124);
+    overflow: auto;
+}
+#Chicken-tile:hover, #beef-tile:hover, #suchi-tile:hover{
+    box-shadow: 0 1px 5px 1px rgb(33, 8, 124);
+}
+#Chicken-tile span, #beef-tile span, #suchi-tile span{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: uppercase;
+    background-color: beige;
+    color: blue;
+}
+#home-tiles P {
+    color: rgb(33, 8, 124);
+    text-decoration: none;
+}
